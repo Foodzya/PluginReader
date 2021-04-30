@@ -26,5 +26,12 @@ namespace SomePlugin
                 $"Age: {Age}\n" +
                 $"Nationality: {Nationality}");
         }
+
+        public void GetNameAndStuff(string newName)
+        {
+            Console.WriteLine($"You got a new name? Perfect {newName}\n" +
+                $"Where were you born?\n" +
+                $"Hehehehe");
+        }
     }
 }
